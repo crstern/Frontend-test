@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+body{
+  font-family: 'Lato', sans-serif;
+
+}
+
+.cards{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 3;
+}
+
+
+#pageMask {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}

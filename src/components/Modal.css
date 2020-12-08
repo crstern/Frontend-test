@@ -1,0 +1,58 @@
+.modal{
+    position: fixed;
+    width: 40%;    
+    z-index: 3;
+    text-align: center;
+    background-color: white;
+    padding: 2em;
+}
+
+.lgImg{
+    width: 100%;
+}
+
+.xButton{
+    float: right;
+    background-color: white;
+    border: none;
+}
+
+.modalContent{
+    text-align: left;
+    width: -webkit-full-available;
+    color: #A5AFB8;  
+}
+
+.avatarPic{
+    margin-top: 2em;
+    /* float:left; */
+    border-radius: 50%;
+    width: 4em;
+}
+
+.avatarName{
+    position: relative;
+    top: 3em;
+    margin-left: 10px;
+    /* right: 8em; */
+}
+
+.profileInfo{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* @media screen and (max-width: 900px){
+    .avatarName{
+        right: 5em;
+    }
+}
+
+
+
+@media screen and (max-width: 550px){
+    .avatarName{
+        right: 0em;
+    }
+} */

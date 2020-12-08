@@ -1,0 +1,83 @@
+.myCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:40%;
+    margin: 2em
+}
+  
+.cardImageSmall{
+    height: 250px;
+    min-width: -webkit-fill-available;
+    max-width: -webkit-fill-available;
+
+    margin-bottom: 1px;
+}
+
+.cardImageSmall:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+  
+  
+.yellowDot{
+    height: 10px;
+    width: 10px;
+    background-color: #FEC107;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+  
+.blueDot{
+    height: 10px;
+    width: 10px;
+    background-color: #01BBD4;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+  
+.cardTextContent{
+    width: -webkit-full-available;
+    color: #A5AFB8;  
+}
+  
+.cardContent{
+    margin-top: 30px;
+    padding-left: 5em;
+    padding-right: 5em;
+    font-weight: thin;
+} 
+  
+.footer{
+    display: flex;
+    color: #A5AFB8;  
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.learnMore{
+    visibility: hidden;
+    text-align: center;
+    position: relative;
+    bottom:10em;
+    color:white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 958px){
+    .myCard{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .myCard{
+        width: 70%;
+    }
+
+    .cardContent{
+        margin-top: 20px;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
